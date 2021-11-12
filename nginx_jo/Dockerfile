@@ -7,4 +7,4 @@ RUN apt-get update \
 # copy env2json.sh and run create json
 WORKDIR /usr/share/nginx/html
 COPY env2json.sh .
-CMD ["sh", "/usr/share/nginx/html/env2json.sh"]
+CMD ["bash", "/usr/share/nginx/html/env2json.sh"]

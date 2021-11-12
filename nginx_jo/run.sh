@@ -1,5 +1,6 @@
 # 运行容器
 docker run -d \
+    --name nginx-jo \
     -p 8088:80 \
-    -e ENV1=aaa -e ENV2=bbb \
+    -e X_ENV1=aaa -e X_ENV2=bbb \
     itvincent/nginx-jo
