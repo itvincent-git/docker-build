@@ -1,15 +1,6 @@
-# android sdk工具
-# FROM cirrusci/android-sdk:tools
-FROM androidsdk/android-29:latest
+# 安装了sdk28,29,30的android镜像
+FROM itvincent/android28to30:21-12-10
 USER root
-# 安装android28
-RUN yes | sdkmanager \
-    "platforms;android-28" \
-    "build-tools;28.0.3"
-# # 安装android29
-# RUN yes | sdkmanager \
-#     "platforms;android-29" \
-#     "build-tools;29.0.3"
 
 # flutter版本参数
 ARG flutter_version
