@@ -1,5 +1,5 @@
 # 安装了sdk28,29,30的android镜像
-FROM itvincent/android28to30:21-12-10
+FROM itvincent/android28to30:21-12-20
 USER root
 
 # flutter版本参数

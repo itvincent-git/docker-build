@@ -7,6 +7,7 @@ RUN yes | sdkmanager \
     "platforms;android-28" \
     "build-tools;30.0.3" \
     "build-tools;29.0.3" \
+    "build-tools;29.0.2" \
     "build-tools;28.0.3" 
 # # 安装android29
 # RUN yes | sdkmanager \
